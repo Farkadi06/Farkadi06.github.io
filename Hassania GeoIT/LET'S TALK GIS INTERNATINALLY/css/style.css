@@ -41,6 +41,7 @@
 			-ms-animation: none !important;
 			animation: none !important;
 		}
+	
 
 	body,input,textarea,select
 	{
@@ -53,6 +54,7 @@
 		text-shadow: 0 0 0.5px rgba(58,57,57,0.25);
 		-webkit-text-stroke: 0.25px;
 	}
+
 
 	h1,h2,h3,h4,h5,h6
 	{
