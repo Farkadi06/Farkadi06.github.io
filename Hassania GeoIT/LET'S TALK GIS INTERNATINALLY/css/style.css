@@ -2,25 +2,19 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600');
 @import url('font-awesome.min.css');
 
-/*
-	Overflow by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
 
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+html { 
+	background: url(/images/bg_alt.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
 
-	body
-	{
-		background-color:		#183026;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
-		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								cover;
-		background-position: 	top left,							center 0;
-		background-attachment:	fixed,								fixed;
-	}
+	
 
 		body.is-scroll
 		{
@@ -874,7 +868,7 @@
 		}
 		#Banner-Sec{
 			display: grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr 3fr;
 			align-items: center;
 			margin: 30px;
 		}
@@ -883,10 +877,21 @@
 		@media only screen and (max-width: 600px) {
 			#Banner-Sec{
 				display: grid;
-				 grid-template-columns: 1fr;
-				  align-items: center;
-				    margin: 30px;
+				grid-template-columns: 1fr;
+				align-items: center;
+				margin: 50px;
+				
 			}
+
+			html { 
+				background: url(/images/bg_alt.jpg) no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			  }
+
+			  
 		  }
 		
 
@@ -922,6 +927,10 @@
 			{
 				border-bottom-color: rgba(255,255,255,0);
 			}
+
+			
+
+
 
 /*********************************************************************************/
 /* Footer                                                                        */
@@ -975,6 +984,7 @@
 			margin: 0 0 9em 0;
 			font-size: 0.8em;
 		}
+		
 		
 /*********************************************************************************/
 /* Poptrox                                                                       */
